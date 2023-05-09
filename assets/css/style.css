@@ -1,0 +1,241 @@
+h1,h2,h3,p,a{
+    color: #655245;
+    font-family: "nitalago-ruika", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+img{
+    width: 100%;
+}
+
+.row{
+    width: 100%;
+}
+
+section{
+    padding: 3rem 5rem;
+}
+
+h2{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.text-red{
+    color: #E93323 !important;
+}
+
+.bg-red{
+    background-color: #E93323 !important;
+}
+
+.bg-gray{
+    background-color: #F6F6F6 !important;
+}
+
+.bg-brown{
+    background-color: #707070 !important;
+}
+
+.btn{
+    background-color: #E93323 !important;
+    border: none !important;
+    border-radius: 30px !important;
+    -webkit-border-radius: 30px !important;
+    -moz-border-radius: 30px !important;
+    -ms-border-radius: 30px !important;
+    -o-border-radius: 30px !important;
+    font-size: 20px !important;
+}
+
+.center {
+  display: grid;
+  place-items: center;
+}
+
+.plan-card1{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 5px 5px 5px #E93323;
+}
+
+.plan-card2{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 5px 5px 5px #707070;
+}
+
+.br-card{
+    border-radius: 20px 20px 0 0;
+    -webkit-border-radius: 20px 20px 0 0;
+    -moz-border-radius: 20px 20px 0 0;
+    -ms-border-radius: 20px 20px 0 0;
+    -o-border-radius: 20px 20px 0 0;
+}
+
+.br-reason{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 5px 5px 5px #707070;
+    z-index: 10;
+}
+
+.position-relative img{
+    position: absolute;
+}
+
+.br-20{
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+}
+
+.bs-gray{
+box-shadow: 5px 5px 5px #707070;
+}
+
+.bs-dark{
+    border: solid 1px #707070
+}
+
+.line{
+     padding:1px;width: 1px
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #050505 !important;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+
+.accordion-button:not(.collapsed) {
+    color: #e40c0c !important;
+    background-color: #ffe7e7 !important;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #fe8686 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
+
+
+.c-form {
+	max-width: 600px;
+	margin: 0 auto;
+}
+.c-form__item {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-bottom: 20px;
+}
+.c-form__label,
+.c-form__input {
+	padding: 10px;
+}
+.c-form__label {
+	width: 90%;
+}
+.c-form__input {
+	width: 90%;
+	font-size: 16px;
+	border: solid 1px #333;
+	border-radius: 4px;
+}
+.c-form__input:focus-visible {
+	outline: #E93323 auto 1px;
+}
+.c-form__required {
+	color: #fff;
+	background-color: #E93323;
+	border-radius: 4px;
+	padding: 5px 5px;
+	margin: 0 0 0 18px;
+}
+textarea.c-form__input {
+	height: 160px;
+}
+.c-form__submit {
+	text-align: center;
+}
+.c-form__submit button {
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #E93323;
+	border: solid 1px #E93323;
+	border-radius: 4px;
+	padding: 5px 32px;
+	transition: 0.4s;
+	cursor: pointer;
+}
+.c-form__submit button:hover {
+	color: #E93323;
+	background-color: transparent;
+}
+
+@media (min-width: 640px) {
+	.c-form__item {
+		flex-wrap: nowrap;
+	}
+	.c-form__label {
+		width: 30%;
+	}
+	.c-form__input {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 959px) {
+	section{
+    padding: 3rem 1rem;
+    }
+    .position-relative img{
+    position: inherit;
+    left: auto !important;
+    right: auto !important;
+    top: 34% !important;
+}
+.line{
+     padding:1px;width: 100%
+}
+.bg-dark .w-75{
+    width: 100% !important;
+}
+}
