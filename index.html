@@ -92,78 +92,108 @@
   <section class="row m-0 text-center">
     <h3 class="text-red">Plan</h3>
     <h2>料金プラン</h2>
-    <div class="col-11 col-md-9 mx-auto plan-card1 p-0 my-5">
-      <h3 class="bg-red text-white py-4 br-card">財務経理マスタープラン</h3>
-      <div class="p-0 m-0 row mx-auto" style="max-width: 90%;">
-        <h2 class="my-3">￥148,000~/月</h2>
-        <p>経理代行サービスと財務コンサルサービスがセットになったプランです。経理や財務に関する事柄をまとめて弊社にご依頼いただくことで、お客様は本業に集中いただくことができます。</p>
-        <div class="col-12 col-md-4 my-3">
-          <img src="assets/img/10.png">
-          <p class="py-3">経理代行サービス全般</p>
+
+    <ul class="nav nav-pills mt-5 mb-3 row mx-0" id="pills-tab" role="tablist">
+      <li class="nav-item my-2 col-12 col-md-4" role="presentation">
+        <button class="w-100 nav-link mx-auto p-3 active" id="pills-home-tab" data-bs-toggle="pill"
+          data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+          財務経理マスタープラン
+        </button>
+      </li>
+      <li class="nav-item my-2 col-12 col-md-4" role="presentation">
+        <button class="w-100 nav-link mx-auto p-3" id="pills-profile-tab" data-bs-toggle="pill"
+          data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+          経理代行プラン
+        </button>
+      </li>
+      <li class="nav-item my-2 col-12 col-md-4" role="presentation">
+        <button class="w-100 nav-link mx-auto p-3" id="pills-contact-tab" data-bs-toggle="pill"
+          data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+          財務コンサルプラン
+        </button>
+      </li>
+    </ul>
+
+    <div class="tab-content col-12 row m-0 p-0" id="pills-tabContent">
+
+      <div class="col-12 col-md-9 mx-auto plan-card1 p-0 my-5 tab-pane fade show active" id="pills-home" role="tabpanel"
+        aria-labelledby="pills-home-tab">
+        <h3 class="bg-red text-white py-4 br-card">財務経理マスタープラン</h3>
+        <div class="p-0 m-0 row mx-auto" style="max-width: 90%;">
+          <h2 class="my-3">￥148,000~/月</h2>
+          <p>経理代行サービスと財務コンサルサービスがセットになったプランです。経理や財務に関する事柄をまとめて弊社にご依頼いただくことで、お客様は本業に集中いただくことができます。</p>
+          <div class="col-12 col-md-4 my-3">
+            <img src="assets/img/10.png">
+            <p class="py-3">経理代行サービス全般</p>
+          </div>
+          <div class="col-12 col-md-4 my-3">
+            <img src="assets/img/11.png">
+            <p class="py-3">財務コンサルサービス全般</p>
+          </div>
+          <div class="col-12 col-md-4 my-3">
+            <img src="assets/img/12.png">
+            <p class="py-3">その他応相談</p>
+          </div>
         </div>
-        <div class="col-12 col-md-4 my-3">
-          <img src="assets/img/11.png">
-          <p class="py-3">財務コンサルサービス全般</p>
-        </div>
-        <div class="col-12 col-md-4 my-3">
-          <img src="assets/img/12.png">
-          <p class="py-3">その他応相談</p>
+        <div class="my-5">
+          <a href="#timerex" type="button" class="btn btn-primary px-5">無料でご相談</a>
         </div>
       </div>
-      <div class="my-5">
-        <a href="#timerex" type="button" class="btn btn-primary px-5">無料でご相談</a>
+
+      <div class="col-12 col-md-9 mx-auto plan-card2 p-0 my-5 tab-pane fade" id="pills-profile" role="tabpanel"
+        aria-labelledby="pills-profile-tab">
+        <h3 class="bg-brown text-white py-4 br-card">経理代行プラン</h3>
+        <div class="p-0 m-0 row mx-auto" style="max-width: 90%;">
+          <h2 class="my-3">￥48,000~/月</h2>
+          <p>
+            日々の取引データを元に、会計帳簿に必要な仕訳の入力や試算表等の作成。また、監査法人への対応や定款の変更手続きなど、経理に関する業務をまるっと支援しております。お客様のご要望に応じて、必要なものを取捨選択いただくことができますので、ご安心ください。
+          </p>
+          <div class="col-12 col-md-4 my-3">
+            <img src="assets/img/13.png">
+            <p class="py-3">会計帳簿の作成</p>
+          </div>
+          <div class="col-12 col-md-4 my-3">
+            <img src="assets/img/14.png">
+            <p class="py-3">仕訳入力</p>
+          </div>
+          <div class="col-12 col-md-4 my-3">
+            <img src="assets/img/15.png">
+            <p class="py-3">事務手続き</p>
+          </div>
+        </div>
+        <div class="my-5">
+          <a href="#timerex" type="button" class="btn btn-primary px-5">無料でご相談</a>
+        </div>
       </div>
+
+      <div class="col-12 col-md-9 mx-auto plan-card2 p-0 my-5 tab-pane fade" id="pills-contact" role="tabpanel"
+        aria-labelledby="pills-contact-tab">
+        <h3 class="bg-brown text-white py-4 br-card">財務コンサルプラン</h3>
+        <div class="p-0 m-0 row mx-auto" style="max-width: 90%;">
+          <h2 class="my-3">￥150,000~/月</h2>
+          <p>
+            まずは現状の財務状況を分析し、現状の課題を明確にします。その後に、クライアント様が必要とされるゴールに合わせて、最適な財務戦略の立案や実行の支援を行うプランです。また他には、税務のアドバイスや資金効率の改善のお手伝いも行います。
+          </p>
+          <div class="col-12 col-md-4 my-3">
+            <img src="assets/img/16.png">
+            <p class="py-3">財務分析</p>
+          </div>
+          <div class="col-12 col-md-4 my-3">
+            <img src="assets/img/17.png">
+            <p class="py-3">税務のアドバイス</p>
+          </div>
+          <div class="col-12 col-md-4 my-3">
+            <img src="assets/img/18.png">
+            <p class="py-3">財務戦略支援</p>
+          </div>
+        </div>
+        <div class="my-5">
+          <a href="#timerex" type="button" class="btn btn-primary px-5">無料でご相談</a>
+        </div>
+      </div>
+
     </div>
 
-    <div class="col-11 col-md-9 mx-auto plan-card2 p-0 my-5">
-      <h3 class="bg-brown text-white py-4 br-card">経理代行プラン</h3>
-      <div class="p-0 m-0 row mx-auto" style="max-width: 90%;">
-        <h2 class="my-3">￥48,000~/月</h2>
-        <p>
-          日々の取引データを元に、会計帳簿に必要な仕訳の入力や試算表等の作成。また、監査法人への対応や定款の変更手続きなど、経理に関する業務をまるっと支援しております。お客様のご要望に応じて、必要なものを取捨選択いただくことができますので、ご安心ください。
-        </p>
-        <div class="col-12 col-md-4 my-3">
-          <img src="assets/img/13.png">
-          <p class="py-3">会計帳簿の作成</p>
-        </div>
-        <div class="col-12 col-md-4 my-3">
-          <img src="assets/img/14.png">
-          <p class="py-3">仕訳入力</p>
-        </div>
-        <div class="col-12 col-md-4 my-3">
-          <img src="assets/img/15.png">
-          <p class="py-3">事務手続き</p>
-        </div>
-      </div>
-      <div class="my-5">
-        <a href="#timerex" type="button" class="btn btn-primary px-5">無料でご相談</a>
-      </div>
-    </div>
-
-    <div class="col-11 col-md-9 mx-auto plan-card2 p-0 my-5">
-      <h3 class="bg-brown text-white py-4 br-card">財務コンサルプラン</h3>
-      <div class="p-0 m-0 row mx-auto" style="max-width: 90%;">
-        <h2 class="my-3">￥150,000~/月</h2>
-        <p>
-          まずは現状の財務状況を分析し、現状の課題を明確にします。その後に、クライアント様が必要とされるゴールに合わせて、最適な財務戦略の立案や実行の支援を行うプランです。また他には、税務のアドバイスや資金効率の改善のお手伝いも行います。
-        </p>
-        <div class="col-12 col-md-4 my-3">
-          <img src="assets/img/16.png">
-          <p class="py-3">財務分析</p>
-        </div>
-        <div class="col-12 col-md-4 my-3">
-          <img src="assets/img/17.png">
-          <p class="py-3">税務のアドバイス</p>
-        </div>
-        <div class="col-12 col-md-4 my-3">
-          <img src="assets/img/18.png">
-          <p class="py-3">財務戦略支援</p>
-        </div>
-      </div>
-      <div class="my-5">
-        <a href="#timerex" type="button" class="btn btn-primary px-5">無料でご相談</a>
-      </div>
-    </div>
   </section>
 
   <section class="row m-0 text-center bg-gray">
