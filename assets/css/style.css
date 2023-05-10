@@ -61,6 +61,31 @@ p{
   place-items: center;
 }
 
+.nav-pills .nav-link {
+    background: 0 0;
+    border: solid !important;
+    border-radius: 0.25rem;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #ea3323 !important;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #655245 !important;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff !important;
+    background-color: #ea3323 !important;
+}
+
 .plan-card1{
     border-radius: 20px;
     -webkit-border-radius: 20px;
