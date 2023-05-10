@@ -38,13 +38,13 @@
     </div>
     <div class="my-5"></div>
     <div class="col-1 col-md-4 text-end">
-      <img src="assets/img/4.png" class="my-3 w-50 d-none d-md-block">
+      <img src="assets/img/4.png" class="my-3 w-50 d-none d-md-inline">
     </div>
     <div class="col-10 col-md-4 center">
       <h2 class="text-red">まずはご相談ください</h2>
     </div>
     <div class="col-1 col-md-4 text-start">
-      <img src="assets/img/5.png" class="my-3 w-50 d-none d-md-block">
+      <img src="assets/img/5.png" class="my-3 w-50 d-none d-md-inline">
     </div>
     <div class="col-12 mx-auto">
       <img src="assets/img/6.png" class="my-3 w-md-50">
@@ -543,30 +543,36 @@
     <h3 class="text-red">Contact</h3>
     <h2>お問い合わせ</h2>
 
-    <form class="c-form bg-white p-3 p-md-5 br-20 bs-gray mt-5">
+    <form class="c-form bg-white p-3 p-md-5 br-20 bs-gray mt-5"
+      action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc1p3Uvc8cibh9OtJM38nV9r6CojoETddkRdHw2ZAP1VAnaSQ/formResponse"
+      method="post" target="hidden_iframe" onsubmit="submitted=true;">
       <div class="c-form__item">
         <label class="c-form__label text-start text-md-end" for="field-coｍ">会社名<span
             class="c-form__required">必須</span></label>
-        <input class="c-form__input" id="field-coｍ" placeholder="株式会社OO" type="text" required="required" />
+        <input class="c-form__input" name="entry.216710071" id="field-coｍ" placeholder="株式会社OO" type="text"
+          required="required" />
       </div>
       <div class="c-form__item">
         <label class="c-form__label text-start text-md-end" for="field-name">名前<span
             class="c-form__required">必須</span></label>
-        <input class="c-form__input" id="field-name" placeholder="山田 太郎" type="text" required="required" />
+        <input class="c-form__input" name="entry.484865644" id="field-name" placeholder="山田 太郎" type="text"
+          required="required" />
       </div>
       <div class="c-form__item">
         <label class="c-form__label text-start text-md-end" for="field-mail">メールアドレス<span
             class="c-form__required">必須</span></label>
-        <input class="c-form__input" id="field-mail" placeholder="sample@gmail.com" type="email" required="required" />
+        <input class="c-form__input" name="entry.1377581501" id="field-mail" placeholder="sample@gmail.com" type="email"
+          required="required" />
       </div>
       <div class="c-form__item">
         <label class="c-form__label text-start text-md-end" for="field-tel">電話番号<span
             class="c-form__required">必須</span></label>
-        <input class="c-form__input" id="field-tel" placeholder="123-4567-8910" type="text" required="required" />
+        <input class="c-form__input" name="entry.1005713051" id="field-tel" placeholder="123-4567-8910" type="text"
+          required="required" />
       </div>
       <div class="c-form__item">
         <label class="c-form__label text-start text-md-end" for="field-message">メッセージ内容</label>
-        <textarea class="c-form__input" id="field-message" placeholder="お問い合わせ内容"></textarea>
+        <textarea class="c-form__input" name="entry.1380086686" id="field-message" placeholder="お問い合わせ内容"></textarea>
       </div>
       <div class="c-form__submit">
         <button type="submit">送信する</button>
@@ -606,6 +612,12 @@
         h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
     })(document);
   </script>
+
+  <script type="text/javascript">
+    let submitted = false;
+  </script>
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display: none"
+    onload="if(submitted){window.location='thanks.html';}"></iframe>
 
 </body>
 

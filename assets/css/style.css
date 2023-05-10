@@ -118,7 +118,8 @@ box-shadow: 5px 5px 5px #707070;
 }
 
 .line{
-     padding:1px;width: 1px
+     padding:1px !important;
+     width: 1px !important;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -233,7 +234,8 @@ textarea.c-form__input {
     top: 34% !important;
 }
 .line{
-     padding:1px;width: 100%
+     padding:1px;
+     width: 100% !important;
 }
 .bg-dark .w-75{
     width: 100% !important;
